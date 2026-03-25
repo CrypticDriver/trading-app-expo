@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "同舟证券",
+    "slug": "trading-app-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "trading-app",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f1219"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kuroopc.tradingapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f1219",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.kuroopc.tradingapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-web-browser",
+      "expo-font"
+    ]
+  }
+}
